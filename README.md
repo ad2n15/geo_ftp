@@ -2,11 +2,8 @@
 useful codes to deal with geo ftp
 
 
-Certainly! The wget command you provided is designed to download all files and directories recursively from a specified FTP directory while preserving a clean directory structure locally. Let's break down each part of the command:
 
-bash
-Copy code
-wget -r -np -nH --cut-dirs=5 ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245108/
+# wget -r -np -nH --cut-dirs=5 ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245108/
 Options Explained:
 wget: This is the command-line utility for downloading files from the web.
 
